@@ -231,6 +231,22 @@ footer {
 }
 
 @media screen and (max-width: 623px) {
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 18px !important;
+  }
+
+  .wrapper div {
+    padding: 10% !important;
+  }
+
   .navcontent {
     flex-direction: column;
     padding-top: 10% !important;
@@ -239,7 +255,8 @@ footer {
     margin: 0;
   }
 
-  .adjust, .navcontent {
+  .adjust,
+  .navcontent {
     padding-left: 10% !important;
     padding-right: 10% !important;
   }
@@ -251,5 +268,31 @@ footer {
 
   .mainnav li a {
     padding: 0;
+  }
+
+  .project-brief,
+  .project-detail {
+    font-size: revert !important;
+    transition: all 150ms;
+  }
+
+  .project-brief {
+    height: 30%;
+    top: 0;
+    border-bottom: dotted 2px white ;
+  }
+
+  .project-detail {
+    height: 70%;
+    opacity: 1;
+  }
+
+  .wrapper:hover .project-detail{
+    height: 100%;
+  }
+
+  .grid-two-columns {
+    padding-top: 10% !important;
+    row-gap: 5% !important;
   }
 }
