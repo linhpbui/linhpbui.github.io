@@ -142,8 +142,25 @@ a {
   max-width: 927px;
   margin-left: 0 !important;
   padding-top: 115px;
+  padding-bottom: 115px;
 }
 
 .intro h1 {
   font-size: 50px;
+}
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 26px;
+  row-gap: 92px;
+}
+
+.wrapper {
+  height: 475px;
+  background-color: #ce6455;
+}
+
+.wrapper div {
+  padding: 62px;
 }
