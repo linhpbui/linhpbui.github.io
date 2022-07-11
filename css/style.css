@@ -1,52 +1,125 @@
 :root {
-    --primary-color: #CE6455;
-    --secondary-color: #EEEEEE;
-    --background-color: #FDFDFD;
-    --text-color1: #1F1F1F;
-    --text-color2: #000000;
+  --primary-color: #ce6455;
+  --secondary-color: #eeeeee;
+  --background-color: #fdfdfd;
+  --text-color1: #1f1f1f;
+  --text-color2: #000000;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    /* For webkit */
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'DM Mono', monospace;
+  margin: 0;
+  padding: 0;
+  /* For webkit */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .justify {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .adjust {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5%;
-    padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 73px;
+  padding-right: 73px;
 }
 
 .title {
-    font-weight: 400;
-    font-size: 50px !important;
+  font-weight: 400;
+  font-size: 50px !important;
+}
+
+h1,
+h2,
+.title,
+.subtitle {
+  font-family: "DM Mono", monospace;
 }
 
 h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .subtitle {
-    font-size: 28px;
-    text-transform: uppercase;
+  font-size: 28px;
+  text-transform: uppercase;
 }
 
-p {
-    font-family: 'DM Sans', sans-serif;
+p,
+.project-brief,
+.project-detail,
+a {
+  font-family: "DM Sans", sans-serif !important;
 }
+
+/* Style theme */
+.link-style {
+  color: var(--primary-color);
+  box-shadow: inset 0 0 0 0 var(--primary-color);
+  padding: 0 0.1rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.link-style:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 var(--primary-color);
+}
+
+/* Navigation Bar Section*/
+.nav-logo {
+  text-decoration: none;
+  color: var(--text-color1);
+  font-size: 45px;
+  font-weight: 600 !important;
+  padding: 17px 22px;
+  margin: 17px 51px;
+}
+
+.nav-logo,
+.navlink {
+  background-color: white;
+  outline: none;
+  outline-offset: 0px;
+  border-radius: 10px;
+  transition-property: background-color, outline, outline-offset;
+  transition-duration: 100ms;
+  transition-timing-function: ease;
+}
+
+.nav-logo:active,
+.mainnav li a:active {
+  background-color: var(--secondary-color);
+  outline: dotted 2px var(--text-color1);
+  outline-offset: 5px;
+  z-index: 1;
+}
+
+.navcontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainnav {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  list-style: none;
+  gap: 0.5em;
+  padding-right: 63px;
+}
+
+.mainnav li a {
+  text-decoration: none;
+  color: var(--text-color1);
+  padding: 17px 10px;
+}
+/* End of Navigation Bar */
