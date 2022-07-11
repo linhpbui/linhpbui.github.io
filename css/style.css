@@ -243,6 +243,11 @@ footer {
     font-size: 18px !important;
   }
 
+  .subtitle {
+    font-size: 20px;
+  }
+  
+
   .wrapper div {
     padding: 10% !important;
   }
@@ -292,7 +297,9 @@ footer {
   }
 
   .grid-two-columns {
+    position: relative;
     padding-top: 10% !important;
-    row-gap: 5% !important;
   }
+
+
 }
