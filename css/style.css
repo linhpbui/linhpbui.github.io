@@ -15,6 +15,11 @@
   box-sizing: border-box;
 }
 
+p {
+  padding-bottom: 31.25px;
+  font-size: 24px;
+}
+
 .justify {
   max-width: 1440px;
   margin-left: auto;
@@ -42,6 +47,8 @@ h2,
 
 h1 {
   font-size: 40px;
+  padding-bottom: 2.6rem;
+  font-weight: 500;
 }
 
 h2 {
@@ -81,6 +88,13 @@ a {
   font-weight: 600 !important;
   padding: 17px 22px;
   margin: 17px 51px;
+}
+
+.navlink {
+  font-weight: 500;
+}
+.nav-active {
+  font-weight: 600;
 }
 
 .nav-logo,
@@ -123,3 +137,13 @@ a {
   padding: 17px 10px;
 }
 /* End of Navigation Bar */
+
+.intro {
+  max-width: 927px;
+  margin-left: 0 !important;
+  padding-top: 115px;
+}
+
+.intro h1 {
+  font-size: 50px;
+}
