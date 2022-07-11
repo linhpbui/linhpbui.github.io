@@ -56,8 +56,12 @@ h2 {
 }
 
 .subtitle {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
   font-size: 28px;
-  text-transform: uppercase;
+  line-height: 36px;
+  text-transform: lowercase;
 }
 
 p,
@@ -166,6 +170,7 @@ a {
   padding: 62px;
 }
 
+
 .wrapper img {
   height: 100%;
   width: 100%;
@@ -175,7 +180,7 @@ a {
 .project-brief,
 .project-detail {
   display: grid;
-  align-items: center;
+  align-content: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -206,4 +211,16 @@ a {
 
 .wrapper:hover .project-brief {
   opacity: 0;
+}
+
+.wrapper:active {
+  outline: dotted 2px var(--text-color1);
+  outline-offset: 5px;
+}
+
+footer {
+  display: grid;
+  justify-content: center;
+  padding-top: 147px;
+  padding-bottom: 64px;
 }
