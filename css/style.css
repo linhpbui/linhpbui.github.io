@@ -186,6 +186,7 @@ a {
   background-color: rgba(0, 0, 0, 0.3);;
   font-size: 30px;
   object-fit: none;
+  backdrop-filter: blur(6px);
 }
 
 .project-brief {
