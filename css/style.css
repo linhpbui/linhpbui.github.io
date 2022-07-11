@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #CE6455;
+    --secondary-color: #EEEEEE;
+    --background-color: #FDFDFD;
+    --text-color1: #1F1F1F;
+    --text-color2: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* For webkit */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+
+.justify {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adjust {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 50px !important;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+}
