@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans&display=swap"
+        rel="stylesheet" />
+    <!--CSS Link-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--<link rel="stylesheet" href="css/responsiveNavBar.css">-->
+
+    <title>linh bui</title>
+</head>
+
+<body>
+    <header>
+        <!--BaseCode for Nav Bar-->
+        <nav class="navbar hide">
+            <div class="navcontent justify">
+                <a href="index.html" class="nav-logo"> linh bui </a>
+                <div class="burger navbar-toggle" id="js-navbar-toggle">
+                    <div class="l1"></div>
+                    <div class="l2"></div>
+                    <div class="l3"></div>
+                </div>
+                <ul class="mainnav" id="menu">
+                    {% include nav.html %}
+                </ul>
+            </div>
+        </nav>
