@@ -2,3 +2,5 @@ name: linhpbui
 title: linhbui
 permalink: /:categories/:title/
 baseurl: /
+plugins:
+- jekyll-seo-tag

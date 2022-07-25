@@ -1,8 +1,8 @@
 ---
-title: about
-layout: about
+title: projects
+layout: main
 ---
-<div class="adjust">
+<div>
     <div class="text-box">
         <p>
             You can find me on
@@ -12,7 +12,7 @@ layout: about
         </p>
     </div>
 </div>
-<div class="adjust projects grid-two-columns">
+<div class="projects grid-two-columns">
     <a href="" class="wrapper">
         <img src="./img/nourishing-networks.png" />
         <div class="project-brief">
