@@ -1,5 +1,4 @@
 ---
-categories: [projects]
 layout: projects
 
 title: "nourishing networks"

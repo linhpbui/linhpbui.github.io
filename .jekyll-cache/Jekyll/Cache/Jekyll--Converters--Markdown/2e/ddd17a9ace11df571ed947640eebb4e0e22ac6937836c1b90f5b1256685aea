@@ -1,8 +1,4 @@
----
-title: projects
-layout: main
----
-<div>
+I"d<div>
     <div class="text-box">
         <p>
             You can find me on
@@ -13,18 +9,19 @@ layout: main
     </div>
 </div>
 <div class="projects grid-two-columns">
-{% assign sorted = site.posts | sort: 'date' | reverse  %}
-{% for post in sorted %}
-    <a href="{{ post.url }}" class="wrapper">
-        <img src="{{ post.img-link }}" />
+
+
+    <a href="/nourishingnetwork/" class="wrapper">
+        <img src="/img/nourishing-networks.png" />
         <div class="project-brief">
-            {{ post.project-title }}
+            Building communication tools for a human-to-human network
         </div>
         <div class="project-detail">
-            <strong>{{ post.project-subtitle }}</strong>
+            <strong>Stakeholder Interview, Survey, One-on-one Interview, Competitive Analysis</strong>
             <br />
-            {{ post.description }}
+            How might we facilitate the communication and collaboration between the volunteers at the Nourishing Network community?
         </div>
     </a>
-{% endfor %}
+
 </div>
+:ET
