@@ -1,0 +1,84 @@
+{% include header.html %}
+
+<div class="project-bg">
+    <div class="justify">
+        <div class="intro adjust grid2x1">
+            <div class="project-title">
+                <h1>{{ page.project-title }}</h1>
+                <p class="subtitle">{{ page.project-subtitle }}</p>
+            </div>
+            <div class="project-img-frame">
+                <img src="{{ page.img-link | baseurl }}" alt="{{ page.title }}"/>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+<main class="justify adjust">
+    <p><strong>Timeline:</strong> {{ page.timeline }}</p>
+    <p>
+        <strong>Role:</strong>
+        <ul>
+            {% for role-li in page.role-list %}
+                <li>{{ role-li }}</li>
+            {% endfor %}
+        </ul>
+    </p>
+    <p>{{ page.role-description }}</p>
+    
+    {% if (page.img-link-figure-1 != "") %}
+    <!--Image Figure Code Section -->
+    <div class="figure" onclick="onClick(this)" style="margin-left: 20%; margin-right: 20%;">
+        <div class="figure-frame">
+            <img src="{{ page.img-link-figure-1 | baseurl }}" alt="figure 1" class="img00"/>
+        </div>
+        <div class="figure-info">
+            <p class="info00">{{ page.img-link-figure-description }}</p>
+        </div>
+    </div>
+    <!--End of Image Code -->
+    {% endif %}
+
+    <div class="grid4x4">
+        <div class="quarter">
+            <h2>Problem space</h2>
+            <p>{{ page.problem-space }}</p>
+        </div>
+        <div class="quarter">
+            <h2>Design question</h2>
+            <p>{{ page.design-question }}</p>
+        </div>
+        <div class="quarter">
+            <h2>Solution</h2>
+            <p>{{ page.solution }}</p>
+        </div>
+        <div class="quarter">
+            <h2>Impacts</h2>
+            <p>
+                <ul>
+                    {% for impact-li in page.impacts %}
+                        <li>{{ impact-li }}</li>
+                    {% endfor %}
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="project-margin">
+        {{ content }}
+    </div>
+
+    <!-- Modal for Image PopUp-->
+    <div id="modal01" class="figure modal" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="figure-frame">
+            <img id="img01">
+        </div>
+        <div class="figure-info justify adjust">
+            <p id="info01"></p>
+        </div>
+    </div>
+    <!--End of Modal-->
+</main>
+<script src="../../js/imgModal.js"></script>
+{% include footer.html %}
