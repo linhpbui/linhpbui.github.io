@@ -1,4 +1,4 @@
-I"d<div>
+I"x<div>
     <div class="text-box">
         <p>
             You can find me on
@@ -10,6 +10,18 @@
 </div>
 <div class="projects grid-two-columns">
 
+
+    <a href="/glints/" class="wrapper">
+        <img src="/img/glints.png" />
+        <div class="project-brief">
+            Lorem
+        </div>
+        <div class="project-detail">
+            <strong></strong>
+            <br />
+            Lorem
+        </div>
+    </a>
 
     <a href="/nourishingnetwork/" class="wrapper">
         <img src="/img/nourishing-networks.png" />

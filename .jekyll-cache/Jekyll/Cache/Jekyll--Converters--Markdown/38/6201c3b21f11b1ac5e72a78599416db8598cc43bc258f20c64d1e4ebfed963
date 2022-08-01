@@ -1,0 +1,36 @@
+I"!<blockquote>
+  <p>This is a quote</p>
+</blockquote>
+
+<h1 id="heading-1">Heading 1</h1>
+
+<h2 id="heading-2">Heading 2</h2>
+
+<p>This paragraph. Lorem ipsim</p>
+
+<!--Image Figure Code Section -->
+<div class="figure" onclick="onClick(this)">
+    <div class="figure-frame">
+        <img src="../../img/nourishingnetworks-fig2.png" alt="figure 2" class="img00" />
+    </div>
+    <div class="figure-info">
+        <p class="info00"><strong>Figure 2-1.</strong> The four stages of research.</p>
+    </div>
+</div>
+<!--End of Image Code -->
+
+<div class="grid4x4">
+    <div class="quarter">
+        <h2>Lorem</h2>
+    </div>
+    <div class="quarter">
+        <h2>Lorem</h2>
+    </div>
+    <div class="quarter">
+        <h2>Lorem</h2>
+    </div>
+    <div class="quarter">
+        <h2>Lorem</h2>
+    </div>
+</div>
+:ET
