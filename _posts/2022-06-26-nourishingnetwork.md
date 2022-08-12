@@ -7,12 +7,12 @@ project-subtitle: "Stakeholder Interview, Survey, One-on-one Interview, Competit
 description: "How might we facilitate the communication and collaboration between the volunteers at the Nourishing Network community?"
 img-link: /img/nourishing-networks.png
 
-timeline: "January -- June 2022"
+timeline: "January — June 2022"
 role-list: ["Lead Mixed-Method UX Researcher: deciding on research methods, crafting research plan and script, conducting interviews, and analyzing data.", "Project Coordinator: primary communicator with the sponsors, organizing testing schedules with participants.", "Assistant UX Designer: ideating design concepts."]
-role-description: "This is a capstone project for my Human-Centered Design and Engineering (HCDE) Master’s degree at the University of Washington, working with our sponsor - Nourishing Networks Consortium. I collaborated with 3 other UX Designers.<br>Nourishing Networks Consortium (NNC) is a non-profit organization that builds a network between passionate volunteers and organizations to create sustainable solutions to help individuals and families who are facing food insecurity to find local and regional food resources."
-img-link-figure-1: /img/nourishingnetworks-fig1.png
+role-description: "This is a capstone project for my Human-Centered Design and Engineering (HCDE) Master’s degree at the University of Washington, working with our sponsor - Nourishing Networks Consortium. I collaborated with 3 other UX Designers.<br><br>Nourishing Networks Consortium (NNC) is a non-profit organization that builds a network between passionate volunteers and organizations to create sustainable solutions to help individuals and families who are facing food insecurity to find local and regional food resources."
+img-link-figure-1: /img/nourishingnetworks.png
 img-link-figure-description: "<strong>Figure 1.</strong> The Nourishing Networks Consortium works to bring together other networks from other regions, fostering a stronger community to community connections."
-problem-space: "Our initial challenge started with the vague and broad problem space that our sponsors proposed for the capstone project: They wanted us to develop a digital foundation of a human-to-human network that amplify the efficiencies and impact of each individual node in the network, and the entire network.<br>Through two rounds of stakeholder interviews with the two sponsors and their two researchers, I identified a specific problem and narrowed down our research objective: Different volunteers use different methods of communication to share and collaborate; hence, the stream of information scatters. Our sponsors want to integrate the scattered information stream into one place for ease of retrieval and share across the networks."
+problem-space: "Our initial challenge started with the vague and broad problem space that our sponsors proposed for the capstone project: They wanted us to develop a digital foundation of a human-to-human network that amplify the efficiencies and impact of each individual node in the network, and the entire network.<br><br>Through two rounds of stakeholder interviews with the two sponsors and their two researchers, I identified a specific problem and narrowed down our research objective: Different volunteers use different methods of communication to share and collaborate; hence, the stream of information scatters. Our sponsors want to integrate the scattered information stream into one place for ease of retrieval and share across the networks."
 design-question: "How might we facilitate the communication and collaboration between the volunteers at the Nourishing Network community?"
 solution: "Our design solution is a combination of a website repository of resources and an internal tool. The website acts as a reference point for volunteers where the volunteers can get access, retrieve, and share resources they need across networks."
 impacts: ["Our sponsors took our suggestion to create a guideline after reading our first report.", "Working on a solution that even people with low technical literacy skills can use easily."]
@@ -44,7 +44,7 @@ Figure 2-1 below outlined the research process I used for this project.
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig2.png" alt="figure 2" class="img00"/>
+        <img src="../../img/nourishingnetworks-research-process.png" alt="research process" class="img00"/>
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 2-1.</strong> The four stages of research.</p>
@@ -57,7 +57,7 @@ To address the research questions, I identified the type of data that I needed t
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig3.png" alt="figure 3" class="img00"/>
+        <img src="../../img/nourishingnetworks-research-plan.png" alt="research plan" class="img00"/>
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 2-2.</strong> Research questions and its corresponding type of data and research methods.</p>
@@ -119,7 +119,7 @@ From the weaknesses I found in the competitive analysis method, I also found two
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig4.png" alt="figure 4" class="img00"/>
+        <img src="../../img/nourishingnetworks-comp-ana.png" alt="competitive analysis" class="img00"/>
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 5.</strong> A plotting of different communication and project management products, looking at simple vs. complex interface, flat vs. steep learning curve.</p>
@@ -134,7 +134,7 @@ From the analysis, we established a deeper understanding of our target audience.
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig5.png" alt="figure 5" class="img00"/>
+        <img src="../../img/nourishingnetworks-target-user.png" alt="target user" class="img00"/>
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 6.</strong> Pain points and needs of our target audience.</p>
@@ -149,7 +149,7 @@ I also created a user journey for our target audience. From this user journey, I
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig6.png" alt="figure 6" class="img00"/>
+        <img src="../../img/nourishingnetworks-user-journey.png" alt="user journey" class="img00"/>
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 7.</strong> User journey of a Nourishing Networks volunteers when they want to start a new volunteering event or project. The red box showed the opportunity that our group can intercept to create a solution that helped solve the pain points that these volunteers experienced.</p>
@@ -164,7 +164,7 @@ As a team, we brainstormed different design solutions that could help us address
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig7.png" alt="figure 7" class="img00"/>
+        <img src="../../img/nourishingnetworks-brainstorm-1.png" alt="brainstorm fig1" class="img00"/>
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 8.</strong> Each member came up with potential solutions. As a team, we went through each solution and group similar ideas.</p>
@@ -177,7 +177,7 @@ We conducted co-working sessions with 5 participants to understand which solutio
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig8.png" alt="figure 8" class="img00"/>
+        <img src="../../img/nourishingnetworks-brainstorm-2.png" alt="brainstorm fig2" class="img00"/>
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 9.</strong> The ranking of 5 participants’ their top three choices.</p>
@@ -219,6 +219,10 @@ Our final solution is a redesigned website with several added features such as N
 <!-- This section for embed the project -->
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEEpyIfev1MR4vI9Egy4Opx%2FCapstone-project-2022-2%3Fpage-id%3D2604%253A26580%26node-id%3D2674%253A32479%26viewport%3D233%252C226%252C0.03%26scaling%3Dscale-down%26starting-point-node-id%3D2674%253A32479" allowfullscreen></iframe>
 <!-- End of embeded section -->
+
+<div class="figure-info">
+    <p class="info00">c <a href="https://www.figma.com/proto/EEpyIfev1MR4vI9Egy4Opx/Capstone-project-2022-2?page-id=2604%3A26580&node-id=2674%3A32479&viewport=233%2C226%2C0.03&scaling=scale-down&starting-point-node-id=2674%3A32479">here</a>.</p>
+</div>
 
 ## Why we decided on this solution
 

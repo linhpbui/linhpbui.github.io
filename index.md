@@ -2,16 +2,14 @@
 title: projects
 layout: main
 ---
+
 <div>
-    <div class="text-box">
-        <p>
-            You can find me on
-            <a href="" target="_blank" class="link-style">LinkedIn</a> or
-            contact me via my
-            <a href="" target="_blank" class="link-style">email</a>.
-        </p>
+    <div class="justify">
+        <h1>Selected projects</h1>
     </div>
 </div>
+
+
 <div class="projects grid-two-columns">
 {% assign sorted = site.posts | sort: 'date' | reverse  %}
 {% for post in sorted %}
@@ -25,6 +23,6 @@ layout: main
             <br />
             {{ post.description }}
         </div>
-    </a>
+    </a> 
 {% endfor %}
 </div>

@@ -30,7 +30,7 @@ blockquote p {
 
 p, main ul {
   padding-bottom: 31.25px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.6em !important;
   font-weight: 400;
 }
@@ -58,34 +58,41 @@ strong {
 
 .title {
   font-weight: 400;
-  font-size: 50px !important;
+  font-size: 45px !important;
 }
 
 h1,
 h2,
+h3,
 .title {
   font-family: 'Fraunces', serif !important;
 }
+
 .subtitle {
-  font-family: "DM Mono", monospace !important;
+  font-family: "DM Sans", sans-serif !important;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 2.6rem;
   font-weight: 400;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 25px;
   font-weight: 400;
 }
 
 .subtitle {
-  font-family: "DM Mono", monospace !important;
+  font-family: "DM Sans", sans-serif !important;
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 36px;
 }
 

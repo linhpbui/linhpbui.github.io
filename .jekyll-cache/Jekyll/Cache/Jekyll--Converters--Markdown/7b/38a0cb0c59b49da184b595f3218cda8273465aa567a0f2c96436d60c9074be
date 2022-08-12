@@ -1,0 +1,35 @@
+I"¸<div>
+    <div class="justify">
+        <h1>Selected projects</h1>
+    </div>
+</div>
+
+<div class="projects grid-two-columns">
+
+
+    <a href="/nourishingnetwork/" class="wrapper">
+        <img src="/img/nourishing-networks.png" />
+        <div class="project-brief">
+            Building communication tools for a human-to-human network
+        </div>
+        <div class="project-detail">
+            <strong>Stakeholder Interview, Survey, One-on-one Interview, Competitive Analysis</strong>
+            <br />
+            How might we facilitate the communication and collaboration between the volunteers at the Nourishing Network community?
+        </div>
+    </a> 
+
+    <a href="/glints/" class="wrapper">
+        <img src="/img/glints.png" />
+        <div class="project-brief">
+            Lorem
+        </div>
+        <div class="project-detail">
+            <strong></strong>
+            <br />
+            Lorem
+        </div>
+    </a> 
+
+</div>
+:ET

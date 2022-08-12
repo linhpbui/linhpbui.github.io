@@ -1,4 +1,4 @@
-I"�=<blockquote>
+I"5?<blockquote>
   <p>“We would like to figure out the best way to communicate within Nourishing Networks and get engage in what’s happening, and broadcast out what’s going on with each other.” — Stakeholder 1</p>
 </blockquote>
 
@@ -32,7 +32,7 @@
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig2.png" alt="figure 2" class="img00" />
+        <img src="../../img/nourishingnetworks-research-process.png" alt="research process" class="img00" />
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 2-1.</strong> The four stages of research.</p>
@@ -45,7 +45,7 @@
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig3.png" alt="figure 3" class="img00" />
+        <img src="../../img/nourishingnetworks-research-plan.png" alt="research plan" class="img00" />
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 2-2.</strong> Research questions and its corresponding type of data and research methods.</p>
@@ -113,7 +113,7 @@
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig4.png" alt="figure 4" class="img00" />
+        <img src="../../img/nourishingnetworks-comp-ana.png" alt="competitive analysis" class="img00" />
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 5.</strong> A plotting of different communication and project management products, looking at simple vs. complex interface, flat vs. steep learning curve.</p>
@@ -128,7 +128,7 @@
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig5.png" alt="figure 5" class="img00" />
+        <img src="../../img/nourishingnetworks-target-user.png" alt="target user" class="img00" />
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 6.</strong> Pain points and needs of our target audience.</p>
@@ -143,7 +143,7 @@
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig6.png" alt="figure 6" class="img00" />
+        <img src="../../img/nourishingnetworks-user-journey.png" alt="user journey" class="img00" />
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 7.</strong> User journey of a Nourishing Networks volunteers when they want to start a new volunteering event or project. The red box showed the opportunity that our group can intercept to create a solution that helped solve the pain points that these volunteers experienced.</p>
@@ -158,7 +158,7 @@
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig7.png" alt="figure 7" class="img00" />
+        <img src="../../img/nourishingnetworks-brainstorm-1.png" alt="brainstorm fig1" class="img00" />
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 8.</strong> Each member came up with potential solutions. As a team, we went through each solution and group similar ideas.</p>
@@ -171,7 +171,7 @@
 <!--Image Figure Code Section -->
 <div class="figure" onclick="onClick(this)">
     <div class="figure-frame">
-        <img src="../../img/nourishingnetworks-fig8.png" alt="figure 8" class="img00" />
+        <img src="../../img/nourishingnetworks-brainstorm-2.png" alt="brainstorm fig2" class="img00" />
     </div>
     <div class="figure-info">
         <p class="info00"><strong>Figure 9.</strong> The ranking of 5 participants’ their top three choices.</p>
@@ -221,6 +221,10 @@
 <!-- This section for embed the project -->
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700px" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEEpyIfev1MR4vI9Egy4Opx%2FCapstone-project-2022-2%3Fpage-id%3D2604%253A26580%26node-id%3D2674%253A32479%26viewport%3D233%252C226%252C0.03%26scaling%3Dscale-down%26starting-point-node-id%3D2674%253A32479" allowfullscreen=""></iframe>
 <!-- End of embeded section -->
+
+<div class="figure-info">
+    <p class="info00">c <a href="https://www.figma.com/proto/EEpyIfev1MR4vI9Egy4Opx/Capstone-project-2022-2?page-id=2604%3A26580&amp;node-id=2674%3A32479&amp;viewport=233%2C226%2C0.03&amp;scaling=scale-down&amp;starting-point-node-id=2674%3A32479">here</a>.</p>
+</div>
 
 <h2 id="why-we-decided-on-this-solution">Why we decided on this solution</h2>
 
