@@ -16,6 +16,6 @@ description: About Linh P. Bui
         <p>My name is Linh. I’m a human-centered advocate. I’m fascinated by listening to people’s stories and understanding their interactions with the world.</p>
         <p>I have a Bachelor’s degree in Psychology. Recently, I graduated from the University of Washington's Master’s program in Human-Centered Design and Engineering. As I work on my crafts, I strive to practice and hone technical skills that enable me to learn and reimagine our relationships with our environments, both digital and physical.</p>
         <p>In my free time, I enjoy drawing 🖍️, watching movies 🎥, reading some good books 📚️, or just chilling with my dog, Ramen 🐶.</p>
-        <p>You can find me on LinkedIn or contact me via my email.</p>
+        <p>You can find me on <a href="https://www.linkedin.com/in/linhbui97" target="_blank">LinkedIn</a> or contact me via <a href="mailto:linhphbui@gmail.com" target="_blank">my email.</a> </p>
     </div>
 </div>

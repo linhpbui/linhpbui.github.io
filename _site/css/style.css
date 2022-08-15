@@ -285,37 +285,6 @@ main a:hover, footer a:hover {
   margin: 17px 51px;
 }
 
-.navlink {
-  font-weight: 500;
-}
-.nav-active {
-  font-weight: 600;
-}
-
-.nav-logo,
-.navlink {
-  background-color: white;
-  outline: none;
-  outline-offset: 0px;
-  border-radius: 10px;
-  transition-property: background-color, outline, outline-offset;
-  transition-duration: 100ms;
-  transition-timing-function: ease;
-}
-.mainnav a.selected:visited {
-  font-weight: 600;
-  color: var(--primary-color);
-}
-
-.mainnav a:hover {
-  text-decoration: line-through
-}
-
-.navcontent {
-  display: flex;
-  justify-content: space-between;
-}
-
 .mainnav {
   display: flex;
   align-items: center;
@@ -331,6 +300,36 @@ main a:hover, footer a:hover {
   color: var(--text-color1);
   padding: 17px 10px;
 }
+
+.navlink {
+  font-weight: 500;
+}
+
+.mainnav a.active {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.nav-logo,
+.navlink {
+  background-color: white;
+  outline: none;
+  outline-offset: 0px;
+  border-radius: 10px;
+  transition-property: background-color, outline, outline-offset;
+  transition-duration: 100ms;
+  transition-timing-function: ease;
+}
+
+.mainnav a:hover {
+  text-decoration: line-through
+}
+
+.navcontent {
+  display: flex;
+  justify-content: space-between;
+  }
+
 /* End of Navigation Bar */
 
 .intro {
