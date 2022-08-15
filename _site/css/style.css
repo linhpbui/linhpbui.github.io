@@ -302,13 +302,13 @@ main a:hover, footer a:hover {
   transition-duration: 100ms;
   transition-timing-function: ease;
 }
+.mainnav a.selected:visited {
+  font-weight: 600;
+  color: var(--primary-color);
+}
 
-.nav-logo:active,
-.mainnav li a:active {
-  background-color: var(--secondary-color);
-  outline: dotted 2px var(--text-color1);
-  outline-offset: 5px;
-  z-index: 1;
+.mainnav a:hover {
+  text-decoration: line-through
 }
 
 .navcontent {
